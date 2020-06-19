@@ -204,7 +204,7 @@ def menu():
 	print "   \033[1;36;40m    ╚═════════════════════════════════╝"
 	print "\033[1;32;40m[1] \033[1;33;40m══Start Cloning"	
 	print "\033[1;32;40m[2] \033[1;33;40m══Update Arbab"																														
-	print "\033[1;32;40m[0] \033[1;33;40m══Log out(Kalti marne ka"
+	print "\033[1;32;40m[0] \033[1;33;40m══Log out(Kalti marne ka)"
 	pilih()
 
 def pilih():
@@ -309,7 +309,7 @@ def pilih_super():
 		print("\r\033[1;32;40m[✺] Cloning\033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 	print "\n\033[1;97m  ❈     \033[1;97mTo Stop Process Press CTRL+Z \033[1;97m    ❈"
 
-	jalan('       \033[1;97mJam start cloning Wait...')
+	jalan('       \033[1;97mArbab start cloning Wait...')
 	print  " \033[1;36;48m●════════════════════◄Arbab►════════════════════●" 
 
 	def main(arg):
